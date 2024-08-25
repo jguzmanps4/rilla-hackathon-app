@@ -28,7 +28,7 @@ export default function SignInPage() {
           position: "absolute", // Makes sure it spans the entire viewport
           top: 0,
           left: 0,
-          backgroundImage: 'url("/images/bg3.jpeg")',
+          backgroundImage: 'url("/images/bg.png")',
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
