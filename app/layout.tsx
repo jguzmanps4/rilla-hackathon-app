@@ -27,10 +27,8 @@ export default function RootLayout({
         <body className={inter.className}>
           {children}
           <SignedOut>
-            <SignInButton />
           </SignedOut>
           <SignedIn>
-            <UserButton />
           </SignedIn>
           {children}
         </body>
