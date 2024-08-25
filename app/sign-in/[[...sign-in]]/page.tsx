@@ -13,7 +13,7 @@ export default function SignInPage() {
   // Redirection to flashcards after signin
   useEffect(() => {
     if (isSignedIn) {
-      router.push('/flashcards'); // Redirect to flashcards page
+      router.push('/dashboard'); // Redirect to flashcards page
     }
   }, [isSignedIn, router]);
 
@@ -28,7 +28,7 @@ export default function SignInPage() {
           position: "absolute", // Makes sure it spans the entire viewport
           top: 0,
           left: 0,
-          backgroundImage: 'url("/bg3.jpg")',
+          backgroundImage: 'url("/images/bg3.jpeg")',
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
